@@ -69,7 +69,7 @@ UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 
 UPDATE_PACKAGE "lazyoop" "lazyoop/networking-artifact" "main"
 
-UPDATE_PACKAGE "lazyoop" "rufengsuixing/luci-app-adguardhome" "master"
+UPDATE_PACKAGE "luci-app-adguardhome" "TanZhiwen2001/luci-app-adguardhome" "master" "pkg"
 
 if [[ $WRT_REPO != *"immortalwrt"* ]]; then
 	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
